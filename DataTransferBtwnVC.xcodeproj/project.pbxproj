@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E9E47DB5B989714F2260462 /* libPods-DataTransferBtwnVC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 162C522FC6EA13F4EB48242F /* libPods-DataTransferBtwnVC.a */; };
+		BAA65E2AB2659EE165F4F2A9 /* libPods-DataTransferBtwnVCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16659CE4989F2406757DFEFE /* libPods-DataTransferBtwnVCTests.a */; };
+		C4AE63A503508C528F7D32A0 /* libPods-DataTransferBtwnVCUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B12D9B71C252E37AA094310A /* libPods-DataTransferBtwnVCUITests.a */; };
 		D41857662043CA350039E5F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D41857652043CA350039E5F2 /* AppDelegate.m */; };
 		D41857692043CA350039E5F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D41857682043CA350039E5F2 /* ViewController.m */; };
 		D418576C2043CA350039E5F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D418576A2043CA350039E5F2 /* Main.storyboard */; };
@@ -15,6 +18,11 @@
 		D41857742043CA350039E5F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D41857732043CA350039E5F2 /* main.m */; };
 		D418577E2043CA350039E5F2 /* DataTransferBtwnVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D418577D2043CA350039E5F2 /* DataTransferBtwnVCTests.m */; };
 		D41857892043CA350039E5F2 /* DataTransferBtwnVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D41857882043CA350039E5F2 /* DataTransferBtwnVCUITests.m */; };
+		D499FB1720440A8E004AF268 /* ContactDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D499FB1620440A8E004AF268 /* ContactDetailsVC.m */; };
+		D499FB1D20440AF8004AF268 /* EducationalDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D499FB1C20440AF8004AF268 /* EducationalDetailsVC.m */; };
+		D499FB2020440B23004AF268 /* AccountDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D499FB1F20440B22004AF268 /* AccountDetailsVC.m */; };
+		D499FB2320440B4E004AF268 /* ProfessionalDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D499FB2220440B4E004AF268 /* ProfessionalDetailsVC.m */; };
+		D499FB2620440B76004AF268 /* FinalFormVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D499FB2520440B76004AF268 /* FinalFormVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		162C522FC6EA13F4EB48242F /* libPods-DataTransferBtwnVC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DataTransferBtwnVC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16659CE4989F2406757DFEFE /* libPods-DataTransferBtwnVCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DataTransferBtwnVCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20E351FD69A1D2C5EAB0CBBB /* Pods-DataTransferBtwnVCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataTransferBtwnVCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DataTransferBtwnVCTests/Pods-DataTransferBtwnVCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2BF36E9347C3F60E425551AE /* Pods-DataTransferBtwnVCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataTransferBtwnVCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DataTransferBtwnVCTests/Pods-DataTransferBtwnVCTests.release.xcconfig"; sourceTree = "<group>"; };
+		59351712C79A88ED46DEB6AC /* Pods-DataTransferBtwnVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataTransferBtwnVC.release.xcconfig"; path = "Pods/Target Support Files/Pods-DataTransferBtwnVC/Pods-DataTransferBtwnVC.release.xcconfig"; sourceTree = "<group>"; };
+		6A7B58C461FBCC0836F3406A /* Pods-DataTransferBtwnVCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataTransferBtwnVCUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DataTransferBtwnVCUITests/Pods-DataTransferBtwnVCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B12D9B71C252E37AA094310A /* libPods-DataTransferBtwnVCUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DataTransferBtwnVCUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC0C29B0F69E9CA06C600EF /* Pods-DataTransferBtwnVCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataTransferBtwnVCUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DataTransferBtwnVCUITests/Pods-DataTransferBtwnVCUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D41857612043CA350039E5F2 /* DataTransferBtwnVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataTransferBtwnVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D41857642043CA350039E5F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D41857652043CA350039E5F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +67,17 @@
 		D41857842043CA350039E5F2 /* DataTransferBtwnVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataTransferBtwnVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D41857882043CA350039E5F2 /* DataTransferBtwnVCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataTransferBtwnVCUITests.m; sourceTree = "<group>"; };
 		D418578A2043CA350039E5F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D499FB1520440A8E004AF268 /* ContactDetailsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactDetailsVC.h; sourceTree = "<group>"; };
+		D499FB1620440A8E004AF268 /* ContactDetailsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactDetailsVC.m; sourceTree = "<group>"; };
+		D499FB1B20440AF8004AF268 /* EducationalDetailsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EducationalDetailsVC.h; sourceTree = "<group>"; };
+		D499FB1C20440AF8004AF268 /* EducationalDetailsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EducationalDetailsVC.m; sourceTree = "<group>"; };
+		D499FB1E20440B22004AF268 /* AccountDetailsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountDetailsVC.h; sourceTree = "<group>"; };
+		D499FB1F20440B22004AF268 /* AccountDetailsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountDetailsVC.m; sourceTree = "<group>"; };
+		D499FB2120440B4E004AF268 /* ProfessionalDetailsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfessionalDetailsVC.h; sourceTree = "<group>"; };
+		D499FB2220440B4E004AF268 /* ProfessionalDetailsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfessionalDetailsVC.m; sourceTree = "<group>"; };
+		D499FB2420440B76004AF268 /* FinalFormVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinalFormVC.h; sourceTree = "<group>"; };
+		D499FB2520440B76004AF268 /* FinalFormVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinalFormVC.m; sourceTree = "<group>"; };
+		E0FFB3FBCBE1BC0206F37B89 /* Pods-DataTransferBtwnVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataTransferBtwnVC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DataTransferBtwnVC/Pods-DataTransferBtwnVC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E9E47DB5B989714F2260462 /* libPods-DataTransferBtwnVC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAA65E2AB2659EE165F4F2A9 /* libPods-DataTransferBtwnVCTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +101,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4AE63A503508C528F7D32A0 /* libPods-DataTransferBtwnVCUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E8CDD6DE1FA715075390435 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0FFB3FBCBE1BC0206F37B89 /* Pods-DataTransferBtwnVC.debug.xcconfig */,
+				59351712C79A88ED46DEB6AC /* Pods-DataTransferBtwnVC.release.xcconfig */,
+				20E351FD69A1D2C5EAB0CBBB /* Pods-DataTransferBtwnVCTests.debug.xcconfig */,
+				2BF36E9347C3F60E425551AE /* Pods-DataTransferBtwnVCTests.release.xcconfig */,
+				6A7B58C461FBCC0836F3406A /* Pods-DataTransferBtwnVCUITests.debug.xcconfig */,
+				CAC0C29B0F69E9CA06C600EF /* Pods-DataTransferBtwnVCUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D41857582043CA350039E5F2 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +128,8 @@
 				D418577C2043CA350039E5F2 /* DataTransferBtwnVCTests */,
 				D41857872043CA350039E5F2 /* DataTransferBtwnVCUITests */,
 				D41857622043CA350039E5F2 /* Products */,
+				9E8CDD6DE1FA715075390435 /* Pods */,
+				D7895C71396F080D0BAD1B7F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +155,16 @@
 				D418576F2043CA350039E5F2 /* LaunchScreen.storyboard */,
 				D41857722043CA350039E5F2 /* Info.plist */,
 				D41857732043CA350039E5F2 /* main.m */,
+				D499FB1520440A8E004AF268 /* ContactDetailsVC.h */,
+				D499FB1620440A8E004AF268 /* ContactDetailsVC.m */,
+				D499FB1B20440AF8004AF268 /* EducationalDetailsVC.h */,
+				D499FB1C20440AF8004AF268 /* EducationalDetailsVC.m */,
+				D499FB1E20440B22004AF268 /* AccountDetailsVC.h */,
+				D499FB1F20440B22004AF268 /* AccountDetailsVC.m */,
+				D499FB2120440B4E004AF268 /* ProfessionalDetailsVC.h */,
+				D499FB2220440B4E004AF268 /* ProfessionalDetailsVC.m */,
+				D499FB2420440B76004AF268 /* FinalFormVC.h */,
+				D499FB2520440B76004AF268 /* FinalFormVC.m */,
 			);
 			path = DataTransferBtwnVC;
 			sourceTree = "<group>";
@@ -132,6 +187,16 @@
 			path = DataTransferBtwnVCUITests;
 			sourceTree = "<group>";
 		};
+		D7895C71396F080D0BAD1B7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				162C522FC6EA13F4EB48242F /* libPods-DataTransferBtwnVC.a */,
+				16659CE4989F2406757DFEFE /* libPods-DataTransferBtwnVCTests.a */,
+				B12D9B71C252E37AA094310A /* libPods-DataTransferBtwnVCUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D418578D2043CA350039E5F2 /* Build configuration list for PBXNativeTarget "DataTransferBtwnVC" */;
 			buildPhases = (
+				4D05CC1450CF6535FC7D6005 /* [CP] Check Pods Manifest.lock */,
 				D418575D2043CA350039E5F2 /* Sources */,
 				D418575E2043CA350039E5F2 /* Frameworks */,
 				D418575F2043CA350039E5F2 /* Resources */,
+				DDC0DCD6CEE847BEA84E7A25 /* [CP] Embed Pods Frameworks */,
+				C5EED5DF04CB3F9EEDDE07CF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D41857902043CA350039E5F2 /* Build configuration list for PBXNativeTarget "DataTransferBtwnVCTests" */;
 			buildPhases = (
+				D46796F4CA17B6A59637ADBF /* [CP] Check Pods Manifest.lock */,
 				D41857752043CA350039E5F2 /* Sources */,
 				D41857762043CA350039E5F2 /* Frameworks */,
 				D41857772043CA350039E5F2 /* Resources */,
+				92AFE5D3DF0492E06DE635A6 /* [CP] Embed Pods Frameworks */,
+				7C01BF97F99B3F303BB54A51 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D41857932043CA350039E5F2 /* Build configuration list for PBXNativeTarget "DataTransferBtwnVCUITests" */;
 			buildPhases = (
+				D4E108BBFA1898B25B970917 /* [CP] Check Pods Manifest.lock */,
 				D41857802043CA350039E5F2 /* Sources */,
 				D41857812043CA350039E5F2 /* Frameworks */,
 				D41857822043CA350039E5F2 /* Resources */,
+				B2464FDECC4DAF77466FFA31 /* [CP] Embed Pods Frameworks */,
+				AD88A523494E41C5584E2BA1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,14 +334,169 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4D05CC1450CF6535FC7D6005 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DataTransferBtwnVC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C01BF97F99B3F303BB54A51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DataTransferBtwnVCTests/Pods-DataTransferBtwnVCTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92AFE5D3DF0492E06DE635A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DataTransferBtwnVCTests/Pods-DataTransferBtwnVCTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD88A523494E41C5584E2BA1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DataTransferBtwnVCUITests/Pods-DataTransferBtwnVCUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2464FDECC4DAF77466FFA31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DataTransferBtwnVCUITests/Pods-DataTransferBtwnVCUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5EED5DF04CB3F9EEDDE07CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DataTransferBtwnVC/Pods-DataTransferBtwnVC-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DataTransferBtwnVC/Pods-DataTransferBtwnVC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D46796F4CA17B6A59637ADBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DataTransferBtwnVCTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4E108BBFA1898B25B970917 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DataTransferBtwnVCUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDC0DCD6CEE847BEA84E7A25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DataTransferBtwnVC/Pods-DataTransferBtwnVC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D418575D2043CA350039E5F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D41857692043CA350039E5F2 /* ViewController.m in Sources */,
+				D499FB1720440A8E004AF268 /* ContactDetailsVC.m in Sources */,
+				D499FB1D20440AF8004AF268 /* EducationalDetailsVC.m in Sources */,
 				D41857742043CA350039E5F2 /* main.m in Sources */,
+				D499FB2320440B4E004AF268 /* ProfessionalDetailsVC.m in Sources */,
 				D41857662043CA350039E5F2 /* AppDelegate.m in Sources */,
+				D499FB2020440B23004AF268 /* AccountDetailsVC.m in Sources */,
+				D499FB2620440B76004AF268 /* FinalFormVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +657,7 @@
 		};
 		D418578E2043CA350039E5F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0FFB3FBCBE1BC0206F37B89 /* Pods-DataTransferBtwnVC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +671,7 @@
 		};
 		D418578F2043CA350039E5F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59351712C79A88ED46DEB6AC /* Pods-DataTransferBtwnVC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +685,7 @@
 		};
 		D41857912043CA350039E5F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20E351FD69A1D2C5EAB0CBBB /* Pods-DataTransferBtwnVCTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +700,7 @@
 		};
 		D41857922043CA350039E5F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BF36E9347C3F60E425551AE /* Pods-DataTransferBtwnVCTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -482,6 +715,7 @@
 		};
 		D41857942043CA350039E5F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A7B58C461FBCC0836F3406A /* Pods-DataTransferBtwnVCUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DataTransferBtwnVCUITests/Info.plist;
@@ -495,6 +729,7 @@
 		};
 		D41857952043CA350039E5F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAC0C29B0F69E9CA06C600EF /* Pods-DataTransferBtwnVCUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DataTransferBtwnVCUITests/Info.plist;

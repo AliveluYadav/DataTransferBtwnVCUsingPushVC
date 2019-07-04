@@ -1,0 +1,15 @@
+PODS:
+  - IQKeyboardManager (5.0.7)
+  - Toast (4.0.0)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - Toast
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 0bfa4607d39924116b5c0c8b55b5d789288b5cba
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+
+PODFILE CHECKSUM: bd24d4a0b77fb56ed299a95299b356cd775f889d
+
+COCOAPODS: 1.4.0
